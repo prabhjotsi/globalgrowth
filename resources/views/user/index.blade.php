@@ -10,7 +10,7 @@
     <meta content="" name="description">
     <meta name="google-site-verification" content="p8186pMOV3vnGG_yjW67bUgtIgBZd-9RCkazNM5E5JA" />
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <!-- <link href="img/favicon.ico" rel="icon"> -->
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">

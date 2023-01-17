@@ -6,12 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>GlobalGrowths</title>
   <!-- Favicon -->
-  <link href="dashboard_assets/img/brand/favicon.png" rel="icon" type="image/png">
+  <!-- <link href="dashboard_assets/img/brand/favicon.png" rel="icon" type="image/png"> -->
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
   <!-- Icons -->
   <link href="dashboard_assets/js/plugins/nucleo/css/nucleo.css" rel="stylesheet" />
-  <link href="dashboard_assets/js/plugins/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- CSS Files -->
   <link href="dashboard_assets/css/argon-dashboard.css?v=1.1.2" rel="stylesheet" />
 </head>
@@ -44,8 +45,7 @@
           <a class="nav-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <div class="media align-items-center">
               <span class="avatar avatar-sm rounded-circle">
-                <img alt="Image placeholder" src="dashboard_assets/img/theme/team-1-800x800.jpg
-">
+                <img alt="Image placeholder" src="dashboard_assets/img/theme/team-1-800x800.jpg">
               </span>
             </div>
           </a>
@@ -103,7 +103,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link " href="{{route('user.profile')}}">
+            <a class="nav-link" href="{{route('user.profile')}}">
             <i class="ni ni-single-02 text-yellow"></i> Profile
             </a>
           </li>
@@ -169,8 +169,7 @@
           </div>
         </div>
       </footer>
-    </div>
-  </div>
+    
   <!--   Core   -->
   <script src="dashboard_assets/js/plugins/jquery/dist/jquery.min.js"></script>
   <script src="dashboard_assets/js/plugins/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

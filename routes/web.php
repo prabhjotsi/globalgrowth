@@ -5,7 +5,7 @@ use App\Http\Controllers\User\HomeController;
 use App\Http\Controllers\User\Auth\LoginController;
 use App\Http\Controllers\User\Auth\RegisterController;
 use App\Http\Controllers\User\Dashboard\UserDashboardController;
-
+Use App\Http\Controllers\User\Profile\UserProfileController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -35,6 +35,10 @@ Route::post('/login', [LoginController::class, 'loginProcess'])->name('user.logi
  Route::post('/store', [RegisterController::class, 'store'])->name('user.store');
 
  Route::get('/dashboard', [UserDashboardController::class, 'index'])->name('user.dashboard');
+
+ Route::get('/profile', [UserProfileController::class, 'index'])->name('user.profile');
+ Route::get('/account/{id}', [RegisterController::class, 'register_with_link'])->name('refferal.register');
+ 
  
  Route::post('/logout', [LoginController::class, 'logout'])->name('user.logout');
  
