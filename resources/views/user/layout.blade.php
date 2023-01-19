@@ -6,15 +6,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>GlobalGrowths</title>
   <!-- Favicon -->
-  <!-- <link href="dashboard_assets/img/brand/favicon.png" rel="icon" type="image/png"> -->
+  <!-- <link href="public/dashboard_assets/img/brand/favicon.png" rel="icon" type="image/png"> -->
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
   <!-- Icons -->
-  <link href="dashboard_assets/js/plugins/nucleo/css/nucleo.css" rel="stylesheet" />
+  <link href="public/dashboard_assets/js/plugins/nucleo/css/nucleo.css" rel="stylesheet" />
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- CSS Files -->
-  <link href="dashboard_assets/css/argon-dashboard.css?v=1.1.2" rel="stylesheet" />
+  <link href="public/dashboard_assets/css/argon-dashboard.css?v=1.1.2" rel="stylesheet" />
 </head>
 
 <body class="">
@@ -26,7 +26,7 @@
       </button>
       <!-- Brand -->
       <a class="navbar-brand pt-0" href="./index.html">
-        <img src="dashboard_assets/img/brand/blue.png" class="navbar-brand-img" alt="...">
+        <img src="public/dashboard_assets/img/brand/blue.png" class="navbar-brand-img" alt="...">
       </a>
       <!-- User -->
       <ul class="nav align-items-center d-md-none">
@@ -45,7 +45,7 @@
           <a class="nav-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <div class="media align-items-center">
               <span class="avatar avatar-sm rounded-circle">
-                <img alt="Image placeholder" src="dashboard_assets/img/theme/team-1-800x800.jpg">
+                <img alt="Image placeholder" src="public/dashboard_assets/img/theme/team-1-800x800.jpg">
               </span>
             </div>
           </a>
@@ -73,7 +73,7 @@
           <div class="row">
             <div class="col-6 collapse-brand">
               <a href="./index.html">
-                <img src="dashboard_assets/img/brand/blue.png">
+                <img src="public/dashboard_assets/img/brand/blue.png">
               </a>
             </div>
             <div class="col-6 collapse-close">
@@ -171,13 +171,13 @@
       </footer>
     
   <!--   Core   -->
-  <script src="dashboard_assets/js/plugins/jquery/dist/jquery.min.js"></script>
-  <script src="dashboard_assets/js/plugins/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="public/dashboard_assets/js/plugins/jquery/dist/jquery.min.js"></script>
+  <script src="public/dashboard_assets/js/plugins/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
   <!--   Optional JS   -->
-  <script src="dashboard_assets/js/plugins/chart.js/dist/Chart.min.js"></script>
-  <script src="dashboard_assets/js/plugins/chart.js/dist/Chart.extension.js"></script>
+  <script src="public/dashboard_assets/js/plugins/chart.js/dist/Chart.min.js"></script>
+  <script src="public/dashboard_assets/js/plugins/chart.js/dist/Chart.extension.js"></script>
   <!--   Argon JS   -->
-  <script src="dashboard_assets/js/argon-dashboard.min.js?v=1.1.2"></script>
+  <script src="public/dashboard_assets/js/argon-dashboard.min.js?v=1.1.2"></script>
   <script src="https://cdn.trackjs.com/agent/v3/latest/t.js"></script>
   <!-- <script>
     window.TrackJS &&
