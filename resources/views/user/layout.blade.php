@@ -73,7 +73,8 @@
           <div class="row">
             <div class="col-6 collapse-brand">
               <a href="./index.html">
-                <img src="public/dashboard_assets/img/brand/blue.png">
+                <!-- <img src="public/dashboard_assets/img/brand/blue.png"> -->
+                GLOBALGROWTH
               </a>
             </div>
             <div class="col-6 collapse-close">
