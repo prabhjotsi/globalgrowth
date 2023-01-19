@@ -23,14 +23,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
-    <link href="front_assets/lib/animate/animate.min.css" rel="stylesheet">
-    <link href="front_assets/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="public/front_assets/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="public/front_assets/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="front_assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="public/front_assets/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Template Stylesheet -->
-    <link href="front_assets/css/style.css" rel="stylesheet">
+    <link href="public/front_assets/css/style.css" rel="stylesheet">
    
 </head>
 
@@ -42,7 +42,7 @@
         <div class="container-xxl position-relative p-0">
             <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
                 <a href="/" class="navbar-brand p-0">
-                    <img src="front_assets/images/logo.png" class="w-100" alt="Logo">
+                    <img src="public/front_assets/images/logo.png" class="w-100" alt="Logo">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="fa fa-bars"></span>
@@ -86,7 +86,7 @@
 
                         </div>
                         <div class="col-lg-6 text-center text-lg-start">
-                            <img class="img-fluid animated zoomIn" src="front_assets/images/hero.png" alt=""
+                            <img class="img-fluid animated zoomIn" src="public/front_assets/images/hero.png" alt=""
                                 style="filter: sepia(1);">
                         </div>
                     </div>
@@ -103,7 +103,7 @@
             <div class="container">
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-6 wow zoomIn" data-wow-delay="0.1s">
-                        <img class="img-fluid" src="front_assets/images/about.png">
+                        <img class="img-fluid" src="public/front_assets/images/about.png">
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="d-inline-block border rounded-pill text-primary px-4 mb-3">About Us</div>
@@ -445,13 +445,13 @@
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="front_assets/lib/wow/wow.min.js"></script>
-    <script src="front_assets/lib/easing/easing.min.js"></script>
-    <script src="front_assets/lib/waypoints/waypoints.min.js"></script>
-    <script src="front_assets/lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="public/front_assets/lib/wow/wow.min.js"></script>
+    <script src="public/front_assets/lib/easing/easing.min.js"></script>
+    <script src="public/front_assets/lib/waypoints/waypoints.min.js"></script>
+    <script src="public/front_assets/lib/owlcarousel/owl.carousel.min.js"></script>
 
     <!-- Template Javascript -->
-    <script src="front_assets/js/main.js"></script>
+    <script src="public/front_assets/js/main.js"></script>
 </body>
 
 </html>
